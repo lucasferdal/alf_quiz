@@ -64,7 +64,7 @@ body {
 
 
 .navigation button:hover {
-  background-color: #003f7f;
+  background-color: #033d77;
 }
 
 .navigation button:disabled {
@@ -95,11 +95,11 @@ body {
 }
 
 .quiz .answer-section button:hover {
-  background-color: #0056b3;
+  background-color: #013164;
 }
 
 .quiz .answer-section .selected {
-  background-color: #0056b3;
+  background-color: #013164;
 }
 
 .quiz .navigation {
@@ -166,7 +166,7 @@ body {
   text-align: center;
 }
 
-.quiz-intro button, .quiz-confirmation button {
+button  {
   padding: 10px 20px;
   margin: 10px;
   color: white;

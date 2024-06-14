@@ -1,29 +1,67 @@
 // src/data.js
+import uno from './assets/uno.jpg'
+import dos from './assets/dos.jpg'
+import tres from './assets/tres.jpg'
+import cuatro from './assets/cuatro.webp'
+import cinco from './assets/cinco.png'
+import seis from './assets/seis.jpg'
+import siete from './assets/siete.png'
+import ocho from './assets/ocho.jpg'
+import nueve from './assets/nueve.png'
+import diez from './assets/diez.jpg'
+import once from './assets/once.png'
+import doce from './assets/doce.png'
+
 export const slides = [
     {
-        image: 'https://www.proferecursos.com/wp-content/uploads/Letras-del-Abecedario-para-Colorear.jpg',
-        text: 'Este es el texto relacionado con la imagen 1'
+        image: uno,
+
+        text: 'El abecedario es un conjunto de letras que usamos para escribir y leer en un idioma. Cada letra representa un sonido específico o un grupo de sonidos. En español, el abecedario está compuesto por 27 letras.'
     },
     {
-        image: 'https://abcdario.org/wp-content/uploads/consonantes.jpg',
-        text: 'Este es el texto relacionado con la imagen 2'
+        image: dos,
+        text: 'Las letras se dividen en dos categorías principales: vocales y consonantes. Las vocales son A, E, I, O y U, se producen sin obstrucción del aire en el tracto vocal y son la base para la formación de sílabas, mientras que las vocales son todas las demas letras del abecedario.'
     },
     {
-        image: 'https://www.worldhistory.org/uploads/images/173.png',
-        text: 'Este es el texto relacionado con la imagen 3'
+        image: tres,
+        text: 'La letra Ñ es única del abecedario español y representa un sonido específico que no existe en otros alfabetos latinos.'
     },
     {
-        image: 'https://abcdario.org/wp-content/uploads/alfabetogriego.jpg',
-        text: 'Este es el texto relacionado con la imagen 4'
+        image: cuatro,
+        text: 'El abecedario no solo es un conjunto de símbolos gráficos, sino que también tiene una importante función fonológica. Cada letra o grupo de letras representa un sonido, o fonema.'
     },
     {
-        image: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Abecedarium_latinum.png',
-        text: 'Este es el texto relacionado con la imagen 5'
+        image: cinco,
+        text: 'Los fenicios desarrollaron uno de los primeros alfabetos conocidos alrededor del año 1500 a.C. Este alfabeto fenicio consistía en 22 letras consonánticas, cada una de las cuales representaba un sonido específico.'
     },
     {
-        image: 'https://altraducciones.com/sites/default/files/blog/2_6.jpg',
-        text: 'Este es el texto relacionado con la imagen 6'
+        image: seis,
+        text: 'Los griegos adoptaron el alfabeto fenicio alrededor del siglo VIII a.C. y añadieron letras para representar las vocales. Esto permitió una representación escrita más precisa y rica del lenguaje hablado.'
     },
+    {
+        image: siete,
+        text: 'Los romanos adaptaron el alfabeto griego para crear el alfabeto latino durante la expansión de su imperio. El alfabeto latino originalmente tenía 21 letras, pero se expandió a 23 letras con la inclusión de la "Y" y la "Z".'
+    },
+    {
+        image: ocho,
+        text: 'Los primeros sistemas de escritura, como los jeroglíficos egipcios y la escritura cuneiforme de Mesopotamia, eran pictográficos y logográficos, donde los símbolos representaban objetos, ideas o sonidos completos.'
+    },
+    {
+        image: nueve,
+        text: 'La invención del alfabeto fenicio representó un cambio revolucionario, al reducir los símbolos a un conjunto manejable que representaba sonidos específicos (fonemas). Esto simplificó la escritura y la hizo más accesible.'
+    },
+    {
+        image: diez,
+        text: 'A lo largo de los siglos, el alfabeto latino ha sido adoptado y modificado por muchos idiomas. Por ejemplo, en el español, la letra "Ñ" se añadió para representar un sonido específico que no existía en el latín.'
+    },
+    {
+        image: once,
+        text: 'Con el tiempo, las letras y la ortografía se han estandarizado para facilitar la comunicación y la educación. La modernización también incluye la digitalización y la codificación de caracteres, como el uso del Unicode.'
+    },
+    {
+        image: doce,
+        text: 'La codificación de caracteres, como el uso del Unicode, permite la representación de todos los caracteres del alfabeto en las computadoras y dispositivos digitales, facilitando la comunicación global y el intercambio de información.'
+    }
 ];
 
 export const quiz = [
@@ -66,11 +104,6 @@ export const quiz = [
         "question": "Describe cómo la invención del alfabeto fenicio facilitó la alfabetización y el comercio en las sociedades antiguas.",
         "options": ["Redujo los símbolos a un conjunto manejable que representaba sonidos específicos (fonemas), simplificando la escritura, facilitando la enseñanza y el aprendizaje, y promoviendo una mayor alfabetización.", "El alfabeto fenicio añadió símbolos complejos y difíciles de entender, lo que hizo que solo una pequeña élite pudiera aprenderlo.", "El alfabeto fenicio se mantuvo aislado y no tuvo influencia en otras culturas.", "El alfabeto fenicio consistía en solo tres letras, lo que limitaba su uso."],
         "correct": 0
-    },
-    {
-        "question": "¿Qué letra se añadió al abecedario español para representar un sonido específico que no existía en el latín?",
-        "options": ["C", "L", "Ñ", "R"],
-        "correct": 2
     },
     {
         "question": "¿Cuál es uno de los propósitos principales de la Real Academia Española al realizar reformas ortográficas?",
